@@ -55,6 +55,7 @@ int main() {
 
 
     sort(v.begin(), v.end());
+    cout << v.size() << endl;
     for (int i:v)
         cout << i <<" ";
     cout << endl;
