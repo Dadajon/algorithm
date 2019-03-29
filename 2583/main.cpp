@@ -7,9 +7,9 @@ int M, N, K, result;
 int dx[] = {-1, 0, 1, 0};
 int dy[] = {0, -1, 0, 1};
 bool map[100][100];
-vector <int> stk;
+vector<int> stk;
 
-void dfs(int cur_x, int cur_y){
+void dfs(int cur_x, int cur_y) {
     if (!map[cur_x][cur_y]) {
         map[cur_x][cur_y] = true;
         result++;
@@ -22,7 +22,7 @@ void dfs(int cur_x, int cur_y){
     }
 }
 
-int main(){
+int main() {
     cin >> M >> N >> K;
 
     for (int i = 0; i < K; i++) {
@@ -38,17 +38,17 @@ int main(){
         for (int m = 0; m < N; m++) {
             result = 0;
             dfs(l, m);
-            if (result != 0){
+            if (result != 0) {
                 stk.push_back(result);
             }
         }
     }
 
-    sort(stk.begin(),stk.end());
+    sort(stk.begin(), stk.end());
     cout << stk.size() << endl;
     for (int i : stk)
-        cout<< i <<" ";
-    cout<<endl;
+        cout << i << " ";
+    cout << endl;
 
     return 0;
 }
