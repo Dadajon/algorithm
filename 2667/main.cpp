@@ -1,56 +1,46 @@
 #include <iostream>
 #include <algorithm>
+#include <vector>
+
 using namespace std;
 
-int n, cnt, danji_su = 0;
-int map[25][25], danji[625], visit[25][25];
+int N, cnt;
+int map[25][25];
+bool visit[25][25];
+int dx[] = {-1, 0, 1, 0};
+int dy[] = {0, -1, 0, 1};
+vector<int> v;
 
-void DFS(int y, int x) {
+void dfs(int y, int x) {
+    visit[y][x] = true;
     cnt++;
-    visit[y][x] = 1;
-
-
-    if (y + 1 >= 0 && y + 1 < n && x >= 0 && x < n)
-        if (map[y + 1][x] == 1 && visit[y + 1][x] == 0)
-            DFS(y + 1, x);
-
-    if (y - 1 >= 0 && y - 1 < n && x >= 0 && x < n)
-        if (map[y - 1][x] == 1 && visit[y - 1][x] == 0)
-            DFS(y - 1, x);
-
-    if (y >= 0 && y < n && x + 1 >= 0 && x + 1 < n)
-        if (map[y][x + 1] == 1 && visit[y][x + 1] == 0)
-            DFS(y, x + 1);
-
-    if (y >= 0 && y < n && x - 1 >= 0 && x - 1 < n)
-        if (map[y][x - 1] == 1 && visit[y][x - 1] == 0)
-            DFS(y, x - 1);
+    for (int i = 0; i < 4; i++) {
+        int new_x = x + dx[i];
+        int new_y = y + dy[i];
+        if (0 <= new_x && new_x < N && 0 <= new_y && new_y < N)
+            if (map[new_y][new_x] == 1 && !visit[new_y][new_x])
+                dfs(new_y, new_x);
+    }
 }
 
 int main() {
-    scanf("%d", &n);
+    cin >> N;
 
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
+    for (int i = 0; i < N; i++)
+        for (int j = 0; j < N; j++)
             scanf("%1d", &map[i][j]);
 
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-            if (map[i][j] == 1 && visit[i][j] == 0) {
+    for (int i = 0; i < N; i++)
+        for (int j = 0; j < N; j++)
+            if (map[i][j] == 1 && !visit[i][j]) {
                 cnt = 0;
-                DFS(i, j);
-                danji[danji_su] = cnt;
-                danji_su++;
+                dfs(i, j);
+                if (cnt != 0) v.push_back(cnt);
             }
 
-    sort(danji, danji + danji_su);
-
-    printf("%d\n", danji_su);
-
-    for (int i = 0; i < danji_su; i++)
-        printf("%d\n", danji[i]);
-
+    sort(v.begin(), v.end());
+    cout << v.size() << endl;
+    for (int i : v)
+        cout << i << endl;
     return 0;
 }
-
-
