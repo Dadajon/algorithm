@@ -25,7 +25,7 @@ int main() {
         }
 
         sort(v.begin(), v.end());
-        
+
         while (!q.empty()) {
             if (q.front().first == v[v.size() - 1]) {
                 v.pop_back();

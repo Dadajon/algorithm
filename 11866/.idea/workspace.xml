@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="1966" targetName="1966" />
+      <config projectName="11866" targetName="11866" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10267565-2f37-4813-8de0-99f8ba95d0d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="c0a08614-3203-4da7-9012-2bc8b4fb7930" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1158/.idea/1158.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1158/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1158/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1158/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1158/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1158/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1158/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/11866.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1966/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1966/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1966/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1966/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +47,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="165">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#86#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +77,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="11866" type="b2602c69:ProjectViewProjectNode" />
+              <item name="11866" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="11866" type="b2602c69:ProjectViewProjectNode" />
+              <item name="11866" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -87,7 +116,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="1966" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1966" TARGET_NAME="1966" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1966" RUN_TARGET_NAME="1966">
+    <configuration name="11866" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="11866" TARGET_NAME="11866" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="11866" RUN_TARGET_NAME="11866">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -98,42 +127,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10267565-2f37-4813-8de0-99f8ba95d0d5" name="Default Changelist" comment="" />
-      <created>1554122464141</created>
+      <changelist id="c0a08614-3203-4da7-9012-2bc8b4fb7930" name="Default Changelist" comment="" />
+      <created>1554798059403</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554122464141</updated>
-      <workItem from="1554122465326" duration="478000" />
-      <workItem from="1554188567691" duration="1004000" />
-      <workItem from="1554196784939" duration="8200000" />
-      <workItem from="1554388448343" duration="2705000" />
-      <workItem from="1554798023103" duration="7000" />
+      <updated>1554798059403</updated>
+      <workItem from="1554798060845" duration="242000" />
+      <workItem from="1554880624271" duration="5123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12394000" />
+    <option name="totallyTimeSpent" value="5365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14878398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15665236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20361446" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -149,10 +175,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#86#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
